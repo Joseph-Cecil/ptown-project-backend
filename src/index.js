@@ -14,7 +14,7 @@ app.use(cors());
 const uri = process.env.MY_DATABASE_URL;
 const port = process.env.PORT || 5000;
 
-const options="https://sprall-buy.onrender.com"
+const options="https://sprall-buy-api.onrender.com"
 
 //Create an Order
 app.post("/order", createOrderController);
